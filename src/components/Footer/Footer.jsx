@@ -1,7 +1,11 @@
+import { PiTelegramLogoThin } from "react-icons/pi";
+import { BsTelephone } from "react-icons/bs";
+import { PiInstagramLogoLight } from "react-icons/pi";
+
 const Footer = () => {
   return (
     <footer className="bg-coustmbgcomponentsabout w-full ">
-      <div className="flex justify-between mx-[120px] ">
+      <div className="flex justify-between mx-[120px] pb-[120px] ">
         <div className="flex space-x-[70px] ">
           <ul className="mt-[80px]  ">
             <li className="text-[30px] font-bold text-coustmwhite mb-3">
@@ -55,14 +59,28 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="mt-[80px] w-[383px] h-[180px] rounded-3xl border border-coustocolorborder px-8 py-4   font-normal bg-coustmwhite/5">
-          <p className="text-[20px] mx-auto  text-coustmwhite mb-[13px]">
-            Perfume is the art{" "}
-            <span className="block"> that makes memory speak.</span>
+        <div className="mt-[80px] w-[383px] h-[202px] rounded-3xl border border-coustocolorborder p-6 bg-coustmwhite/5 text-coustmwhite flex flex-col justify-center">
+          <p className="text-[24px] leading-tight mb-4">
+            "Perfume is the art
+            <span className="block">that makes memory speak."</span>
           </p>
-          <span className="text-white">
-            Francis Kurkdjian,<span className="block"> Master Perfumer</span>
+          <span className="text-coustmwhite text-lg">
+            Francis Kurkdjian,<span className="block">Master Perfumer</span>
           </span>
+        </div>
+      </div>
+      <hr className="w-[84%] mx-auto border-t-1 border-coustmwhite pb-6" />
+      <div className=" flex justify-between mx-[120px]">
+        <div>
+          <span className="text-coustmwhite">
+            Designed by Reza Dadgar . 2023
+          </span>
+        </div>
+
+        <div className="flex space-x-[35px] text-coustmwhite ">
+          <PiTelegramLogoThin className="cursor-pointer w-5 h-5" />
+          <BsTelephone className="cursor-pointer w-5 h-5" />
+          <PiInstagramLogoLight className="cursor-pointer w-5 h-5" />
         </div>
       </div>
     </footer>
