@@ -3,7 +3,7 @@ import sauvage from "../../assets/img/imgs products/sauvage.png";
 import rouge from "../../assets/img/imgs products/rouge.png";
 import chanel from "../../assets/img/imgs products/chanel.png";
 import block from "../../assets/img/imgs products/block.png";
-import image from "../../assets/img/imgs products/image.png";
+import Creedgreenirish from "../../assets/img/imgs products/Creed green irish.png";
 
 const Products = () => {
   const products = [
@@ -54,7 +54,7 @@ const Products = () => {
     {
       id: 6,
       title: "Creed green irish",
-      img: image,
+      img: Creedgreenirish,
       size: "100ML",
       Description:
         "for men - cold fragrance - Aloysia citrodora -Lily - Violet leaf",

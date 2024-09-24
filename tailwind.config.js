@@ -15,6 +15,7 @@ export default {
         coustmtextblue: "#233D65",
         coustmbgcomponentsabout: "#496490",
         coustocolorborder: "#8FAAC1",
+        coustmsilvelr: "#DFDFDF",
       },
     },
   },
