@@ -63,7 +63,7 @@ const Products = () => {
   ];
 
   return (
-    <section className="grid grid-cols-3 gap-y-[96px] gap-x-[100px] mx-[115px]  my-20 h-auto">
+    <section className="grid lg:grid-cols-3 grid-cols-1 gap-y-[96px] lg:gap-x-[100px] lg:mx-[115px]  my-20 h-auto">
       {products.map((items) => (
         <div className="max-w-[336px] max-h-[486px] mx-auto" key={items.id}>
           <div className="border-2 border-coustm rounded-tl-[500px] rounded-tr-[500px] rounded-bl-none rounded-br-none relative flex flex-col items-center justify-center">

@@ -35,15 +35,15 @@ const HotDeals = () => {
   return (
     <section>
       <div className=" bg-coustmbgcomponentsabout pb-[31px] w-full  ">
-        <div className="mx-[116px] pt-[31px] ">
+        <div className="lg:mx-[116px] text-center lg:text-left  pt-[31px] ">
           <h1 className="text-coustmwhite text-[32px] font-normal mb-4 ">
             Hot deals for you
           </h1>
-          <span className=" font-normal text-coustmsilvelr  text-[28px]">
+          <span className=" font-normal text-coustmsilvelr  lg:text-[28px] text-[20px]">
             Experience the best price at the festival
           </span>
         </div>
-        <div className="grid grid-cols-3 gap-y-[96px] gap-x-[100px] mx-[115px]  my-20 h-auto">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-y-[96px] lg:gap-x-[100px] lg:mx-[115px]  my-20 h-auto">
           {products.map((items) => (
             <div
               className="max-w-[336px] max-h-[486px] mx-auto "
